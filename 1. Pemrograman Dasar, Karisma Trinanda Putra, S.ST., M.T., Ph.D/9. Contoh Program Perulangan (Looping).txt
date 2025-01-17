@@ -1,0 +1,41 @@
+#include <stdio.h>
+void loop_for() // fungsi tanpa nilai balik
+{
+	for(int x=0; x<10; x++)
+	printf("x:%d\n",x);
+		
+}
+
+void loop_while()
+{
+	int x=0;
+	while (x<10)
+	{
+	printf("x :%d\n",x);
+	x++;
+	}
+}
+
+void loop_do_while(int password) // fungsi dengan nilai balik
+{
+	int nilaipsw;
+	do
+	{
+		printf("Enter Password: "); // proses looping disini
+		scanf("%d",&nilaipsw);
+	}
+	while(nilaipsw!=password); // cek 
+	printf("Password oke");
+}
+
+int main()
+{
+	loop_for();
+	
+	printf("\n\n");
+	
+	loop_while(); // panggil
+	
+	loop_do_while(1345);  // panggil
+	return 0;	
+}

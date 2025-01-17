@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main()
+{
+	int pilihan;
+	
+	printf("Nama Club Liga Inggris\n");  
+	printf("1. Manchester United\n");
+	printf("2. Arsenal\n");
+	printf("3. Liverpool\n");
+	printf("4. Manchester City\n");
+	printf("5. Chelsea\n");
+	printf("\n\nMasukkan pilihan anda :");
+	scanf("%d",&pilihan);
+	
+	switch(pilihan)
+	{
+		case 1 : printf("Manchester United\n"); break;
+		case 2 : printf("Arsenal\n"); break;
+		case 3 : printf("Liverpool\n");break;
+		case 4 : printf("Manchester City\n");break;
+		case 5 : printf("Chelsea\n");break;
+		default : printf("Tidak ada pilihan\n");break;
+	}
+
+	return 0;
+	
+}

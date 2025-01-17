@@ -1,0 +1,41 @@
+#include <stdio.h>
+
+
+
+int main()
+{
+	int suhu;
+	
+	printf("Masukkan suhu :");
+	scanf("%d",&suhu);
+	
+	if(suhu <= 10)
+	{
+		printf("Suhu:%d C\n",suhu);
+		printf("Sangat Dingin");
+		
+	}
+	
+	else if(suhu <= 20)
+	{
+		printf("Suhu:%d C\n",suhu);
+		printf("Dingin"); 
+	}
+	
+	else if(suhu <= 30)
+	{
+		printf("Suhu:%d C\n",suhu);
+		printf("Sejuk");
+		
+	}
+	
+	else
+	{
+		printf("Suhu:%d C\n",suhu);
+		printf("Panas");		
+	}
+		
+	return 0;
+	
+	
+}

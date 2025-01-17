@@ -1,0 +1,57 @@
+
+#include <stdio.h> // header
+#include <conio.h> //
+
+int a, b; // variabel global
+char huruf = 'a';  
+long int d; 
+float pecahan;
+  
+ 
+
+int main(void)  // fungsi utama
+{
+	a = 1;
+	b = 2; 
+	d = 1000000;
+	
+	int x, y, s;
+	float z;
+	
+	
+	printf("Pengenalan C++\n");
+	printf("nilai c: %d\n",a);
+	printf("nilai b: %d\n",b);
+	printf("Karakter = %c\n", huruf); 
+	printf("long int:%ld\n",d);
+	
+	/*pecahan = (float)a/b;
+	printf("pecahan :%2.3f\n",pecahan);
+	printf("Masukkan nilai x: ");
+	scanf("%d",&x);
+	printf("\nMasukkan nilai y: ");
+	scanf("%d",&y);
+	
+	z = (float)x/y;
+	
+	s = x % y;  // s = sisa bagi dari x/y
+	
+	printf("\nNilai Z :%2.3f", z);
+	printf("\nNilai Module :%d", s);*/
+	
+	// increment 
+	int n;
+	
+	for(n=0; n<10; n++)
+	
+	printf("nilai n:%d\n",n);
+	
+	printf("  \n");
+	int m;
+	for(m=10; m>=0; m--)
+	
+	printf("nilai m:%d\n",m);
+	
+	return 0;
+	getch();
+}
